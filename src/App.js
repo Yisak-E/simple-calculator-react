@@ -13,13 +13,13 @@ function App() {
  
   function plus(e) { 
     e.preventDefault(); 
-    setResult((result) => result += Number(inputRef.current.value)); 
+    setResult((result) => result + Number(inputRef.current.value)); 
   }; 
  
   function minus(e) { 
   	// Add the code for the minus function 
      e.preventDefault(); 
-    setResult((result) => result -= Number(inputRef.current.value)); 
+    setResult((result) => result - Number(inputRef.current.value)); 
   };
  
   function times(e) { 
