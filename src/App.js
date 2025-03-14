@@ -38,7 +38,7 @@ function App() {
   function resetInput(e) { 
     // Add the code for the resetInput function 
      e.preventDefault(); 
-    setResult(() =>  inputRef.current.value = 0); 
+    setResult(() =>  inputRef.current.value = ""); 
   }; 
  
   function resetResult(e) { 
